@@ -1,11 +1,11 @@
 # SV05
-Release version 1.0.3 of my custom build of Marlin 2.1.1 for the Sovol SV05 with Creality v4.2.2 board.
+Release version 1.0.4 of my custom build of Marlin 2.1.1 for the Sovol SV05 with Creality v4.2.2 board.
 
 This is based of the source code for 2.1.1 at https://github.com/MarlinFirmware
 
 If you just want to install my compiled binary, copy the firmware bin file to an SD card (make sure there are no other bin files on it).  Make sure your SV05 is turned off, insert the SD card into the SV05, turn on the SV05.  It will take 10 - 20 seconds to update. The screen will be blank and then the Marlin info should come up and the printer should boot normally.
 
-After flashing, check Info -> Printer Info on the LCD — it should show 2.1.1-SV05-v1.0.3 confirming the flash worked.
+After flashing, check Info -> Printer Info on the LCD — it should show 2.1.1-SV05-v1.0.4 confirming the flash worked.
 
 IT IS VERY IMPORTANT when changing firmware to reset the EEPROM. Go to Configuration -> Advanced Settings -> Initialize EEPROM after flashing.
 
